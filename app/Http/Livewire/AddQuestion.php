@@ -35,7 +35,7 @@ class AddQuestion extends Component
         $this->mount();
 
         toast('Question Successfully Added!','success');
-        // return redirect()->route('homepage');
+        return redirect()->route('homepage');
         // $this->question = "";
     }
 
