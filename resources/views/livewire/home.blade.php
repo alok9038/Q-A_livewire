@@ -5,7 +5,7 @@
                 @livewire('users')
             </div>
             <div class="col-lg-6">
-                @livewire('post-section',['questions'=>$questions])
+                @livewire('post-section')
             </div>
             <div class="col-lg-3">
                 @livewire('ads')
