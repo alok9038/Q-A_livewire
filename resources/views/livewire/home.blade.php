@@ -13,5 +13,4 @@
         </div>
     </div>
     @livewire('add-question')
-    @livewire('add-answer')
 </div>

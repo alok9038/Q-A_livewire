@@ -40,6 +40,7 @@
 
     @foreach ($questions as $question)
         @livewire('post-content',['question'=>$question],key(time().$question->id))
+        @livewire('add-answer',['question'=>$question], key($question['id']))
     @endforeach
 
     <div class="p-3 bg-white shadow-sm rounded">
