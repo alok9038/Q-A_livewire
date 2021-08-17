@@ -1,7 +1,7 @@
 <div class="sticky-top " style="z-index: 1050;">
     <nav class="navbar navbar-expand-lg navbar-light p-0 bg-white shadow-sm">
         <div class="container">
-            <a href="#" class="navbar-brand">Quora</a>
+            <a href="{{ route('homepage') }}" class="navbar-brand">Quora</a>
             <form action="" method="get">
                 <div class="input-group border-muted border" style="border-radius: 8px;">
                     <input type="search" style="border-radius: 8px 0px 0 8px;" name="search" class="form-control-sm" size="50" id="">
@@ -10,7 +10,7 @@
             </form>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a href="#" class="nav-link " style="border-bottom: 3px solid rgb(197, 16, 16); border-radius:1px;">
+                    <a href="{{ route('homepage') }}" class="nav-link " style="border-bottom: 3px solid rgb(197, 16, 16); border-radius:1px;">
                         <i class="fa fa-home fa-2x" style="font-size: 24px;"></i>
                         {{-- <span class="p-1">Home</span> --}}
                     </a>

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,7 +16,17 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-})->name('homepage');
+})->name('homepage')->middleware('auth');
+
+Route::get('/question', function () {
+    return view('question_view');
+})->name('question.view')->middleware('auth');
+
+
+Route::middleware('auth')->group(function () {
+    Route::get('/unanswered/{question_id}',[HomeController::class,'unanswered'])->name('unanswered');
+
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -10,24 +10,6 @@
                     <p class="mt-2 ms-2 ">Charlie Brow</p>
                 </div>
             </div>
-            <div class="mb-3 bg-transparent d-flex">
-                <img src="{{ asset('images/user.png') }}" style="height: 40px;" alt="" class="img-fluid rounded-circle">
-                <div>
-                    <p class="mt-2 ms-2 ">Charlie Brow</p>
-                </div>
-            </div>
-            <div class="mb-3 bg-transparent d-flex">
-                <img src="{{ asset('images/user.png') }}" style="height: 40px;" alt="" class="img-fluid rounded-circle">
-                <div>
-                    <p class="mt-2 ms-2 ">Charlie Brow</p>
-                </div>
-            </div>
-            <div class="mb-3 bg-transparent d-flex">
-                <img src="{{ asset('images/user.png') }}" style="height: 40px;" alt="" class="img-fluid rounded-circle">
-                <div>
-                    <p class="mt-2 ms-2 ">Charlie Brow</p>
-                </div>
-            </div>
         </div>
     </div>
 </div>
